@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>vSlider</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/vSlider.css">
+</head>
+<body>
+   <div class="container">
+      <h1>vSlider demo</h1>
+      <ul id="slider" class="vSlider" data-height="480">
+         <li><img src="img/slide_1.jpg" alt=""></li>
+         <li><img src="img/slide_2.jpg" alt=""></li>
+         <li><img src="img/slide_3.jpg" alt=""></li>
+      </ul>
+   </div>
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/vSlider.js"></script>
+   <script>
+      $('#slider').vSlider({
+         speed: 1000,
+         pause: 3000,
+         height: 460,
+         transition: 'nav'
+      });
+      // var container = $('#slider');
+      // var slider = new Slider( container );
+      // slider.styler(container.attr('data-height'));
+      // $(document).on('click', '.slider-nav button', function(){
+      //    slider.setCurrent( $(this).data('dir'));
+      //    slider.transition();
+      // });
+
+   </script>
+</body>
+</html>

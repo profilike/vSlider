@@ -1,0 +1,22 @@
+body{
+   overflow-x: hidden;
+}
+
+ul.vSlider{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+ul.vSlider li img{
+   width: 100%;
+}
+.slider-nav{
+   text-align: center;
+   padding: 10px 0;
+   z-index: 1000;
+   position: relative;
+}
+.slider-nav button{
+   margin: 0 5px;
+}
